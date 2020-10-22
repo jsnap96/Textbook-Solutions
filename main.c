@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 
-//Chapter 2 Q4
+// C programming A modern Approach, 2nd Edition Chapter 2 Q4
 
 int main(int argc, const char * argv[]) {
     // insert code here...
