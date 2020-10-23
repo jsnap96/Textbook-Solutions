@@ -1,36 +1,40 @@
 //
 //  main.c
-//  Proj1
+//  If_blocks
 //
-//  Created by Joe Ortiz on 6/9/20.
+//  Created by Joe Ortiz on 10/22/20.
 //  Copyright © 2020 Joe Ortiz. All rights reserved.
-//
+//C programming A modern Approach, 2nd Edition by K.N. King Chpater 5 Q1
+//Write a program that counts the number of digits in a number 
 
 #include <stdio.h>
 
-
-// C programming A modern Approach, 2nd Edition Chapter 2 Q4
-
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Enter an amount:");
+    printf("Enter a number:");
+    int num;
+    scanf("%d",&num);
     
-    double amount;
+    if(num>=100)
+    {
+        printf("The number has 3 digits");
     
-    scanf("%lf",&amount);
-    
-    double tax = 0.05;
-    
-    double add_tax = amount * tax;
-    
-    double display;
-    
-    display = add_tax+amount;
-    
-    printf("With tax added: $ %0.2lf\n",display);
-  
+    }
     
     
+       if(num>=10 && num<=99)
+       {
+           printf("The number has 2 digits");
+       
+       }
+    
+    if(num>=0 && num<=9)
+          {
+              printf("The number has 1 digit");
+          
+          }
+          
+       
     
     
     
