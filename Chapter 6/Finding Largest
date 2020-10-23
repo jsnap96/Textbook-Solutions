@@ -1,0 +1,43 @@
+//
+//  main.c
+//  Loop
+//
+//  Created by Joe Ortiz on 10/23/20.
+//  Copyright © 2020 Joe Ortiz. All rights reserved.
+// C programming A modern Approach, 2nd Edition Chapter 6 Q1
+
+
+#include <stdio.h>
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+   
+   // int n=1;
+   
+    int largest =0;
+    int n=1;
+  
+    
+  
+    while(n!=0)
+    {
+        
+        printf("Enter a number:");
+        scanf("%d",&n);
+       
+        
+        if(n>largest)
+        {
+            largest = n;
+            
+        }
+    }
+    
+   
+    
+    printf("The largest element is %d \n", largest);
+  
+    
+    
+    return 0;
+}
