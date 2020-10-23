@@ -4,7 +4,7 @@
 //
 //  Created by Joe Ortiz on 10/22/20.
 //  Copyright © 2020 Joe Ortiz. All rights reserved.
-// C programming A modern Approach, 2nd Edition by K.N. King Chpater 3 Q1
+// C programming A modern Approach, 2nd Edition by K.N. King Chpater 4 Q1
 //Write a program that asks the user to enter a two digit number and then flip it 
 
 #include <stdio.h>
